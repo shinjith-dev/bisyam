@@ -11,9 +11,9 @@ export default function Home() {
         sx={{
           backgroundColor: "primary.100",
           flexGrow: 1,
-          pl: { md: 13 },
           display: "flex",
           p: { xs: 0, md: 4 },
+          pl: { md: 13 },
         }}
       >
         <ChatList />

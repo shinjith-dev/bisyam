@@ -10,8 +10,8 @@ const ChatList = (props: Props) => {
       sx={{
         bgcolor: { xs: "transparent", md: "primary.300" },
         borderRadius: 4,
-        width: { xs: "100%", md: "40px" },
-        height: { xs: "100%", md: "calc(100vh - 64px)" },
+        width:  { xs: "100%", md: "400px" },
+        height: { xs: "calc(100vh - 76px)", md: "calc(100vh - 64px)" },
         overflow: "hidden",
         display: "flex",
         flexDirection: "column",
