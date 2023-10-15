@@ -12,7 +12,7 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { GoogleOAuthProvider } from "@react-oauth/google";
-import { GAUTH_CLIENT_ID } from "@/utils/conig";
+import { GAUTH_CLIENT_ID } from "@/utils/config";
 import GAuth from "@/components/auth/GAuth";
 
 const initialValues = {
